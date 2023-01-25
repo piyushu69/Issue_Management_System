@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Management System</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="navbar">
+        <h1><u> Issue Management System</u></h1>
+      </div>
+      <div id="form-container">
+        <h2><u> Add new Issue</u></h2>
+        <form id="form">
+          <label for="description">Description</label>
+          <input type="text" id="description" name="description" placeholder="Enter a brief description of the issue" required>
+      <label for="severity">Severity</label>
+      <select id="severity" name="severity" required>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+  
+      <label for="assigned-to">Assigned To</label>
+      <input type="text" id="assigned-to" name="assigned-to" placeholder="Enter the name of the person the issue is assigned to" required>
+      <button id="submit" type="submit">Add</button>
+    </form>
+  </div>
+  <div>
+  <div id="cards"><u> Card: </u></div>
+<div id="phase" class="phases">
+  <div id="phase1" class="phase">
+    <h3> New</h3>
+    <hr>
+   
+</div>
+<div id="phase2" class="phase">
+    <h3>InDevelopment</h3>
+    <hr>
+    
+</div>
+<div id="phase3" class="phase">
+    <h3>QA</h3>
+    <hr>
+</div>
+<div id="phase4" class="phase">
+    <h3>Done</h3>
+    <hr>
+</div>
+
+</div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
+
+    
+    
+
+  
+    
+  
