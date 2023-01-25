@@ -46,6 +46,9 @@ form.addEventListener("submit", (event) => {
    // Update the issue status
    const issueStatus = card.querySelector("p:nth-of-type(2)");
    issueStatus.textContent = "Issue Status: Closed";
+    card.querySelector(".prev").style.display="none";
+   card.querySelector(".next").style.display="none";
+   card.querySelector(".close").style.display="none";
  });
  
  // Get the delete button and add a click event listener
